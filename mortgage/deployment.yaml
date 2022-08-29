@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mortgage-app-deploy
+  # hardcoded to assist roxctl deployment check
+  namespace: mortgage
   labels:
     app: mortgage-app-mortgage
 spec:

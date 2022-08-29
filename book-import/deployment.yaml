@@ -4,6 +4,8 @@ metadata:
   labels:
     name: book-import
   name: book-import
+  # hardcoded to assist roxctl deployment check
+  namespace: book-import
 spec:
   replicas: 1
   selector:

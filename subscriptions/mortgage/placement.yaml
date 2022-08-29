@@ -9,4 +9,4 @@ spec:
   clusterReplicas: 1
   clusterSelector:
     matchLabels:
-      usage: development
+      licensed/mortgage: "true"
