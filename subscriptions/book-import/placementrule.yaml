@@ -9,7 +9,7 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      'usage': 'development'
+      licensed/book-import: "true"
   clusterConditions:
     - type: ManagedClusterConditionAvailable
       status: "True"
